@@ -1,0 +1,20 @@
+.formControlError input,
+.formControlError textarea {
+    border: 1px solid red;
+}
+
+.formControlError span {
+    color: #ee1111;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.formSummaryError {
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid orangered;
+    padding: 5px 12px;
+    color: #9d2f07;
+    background-color: darkred;
+}

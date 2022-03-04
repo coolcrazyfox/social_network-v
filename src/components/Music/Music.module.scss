@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template: 1fr / repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: #111;
+}
+
+.roundBorderTopLeft {
+    border-radius: 8px 0 0 0;
+}
+
+.roundBorderTopRight {
+    border-radius: 0 8px 0 0;
+}
+
+.roundBorderBottomLeft {
+    border-radius: 0 0 8px 0;
+}
+
+.roundBorderBottomRight {
+    border-radius: 0 0 0 8px;
+}
+
+@media (pointer: fine) {
+    .container {
+        grid-template: 1fr / repeat(2, 1fr);
+    }
+
+    .iframeWrapper {
+        width: 410px;
+        height: 230px;
+    }
+}

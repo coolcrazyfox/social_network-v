@@ -1,0 +1,15 @@
+.wrapper {
+    margin-top: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template: auto /repeat(3, 1fr);
+    margin-top: 15px;
+}
+
+@media (pointer: fine) {
+    .container {
+        grid-template: repeat(4, auto)/repeat(5, 1fr);
+    }
+}

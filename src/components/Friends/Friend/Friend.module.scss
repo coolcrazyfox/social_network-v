@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.friendContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70px;
+    margin: 5px;
+}
+
+.name {
+    font-size: 18px;
+    word-break: break-word;
+    text-align: center;
+    padding: 3px 7px;
+}
+
+.status {
+    font-size: 16px;
+    word-break: break-word;
+    text-align: center;
+    padding: 3px 7px;
+}
+
+.button {
+    color: #fff;
+    font-size: 18px;
+    background-color: #332b41;
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #aa7a00;
+    color: #fff;
+    text-shadow: #fff 0 0 4px;
+    box-shadow: #997a00 0 0 15px;
+}

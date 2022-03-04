@@ -1,0 +1,57 @@
+.container {
+    padding: 15px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.field {
+    display: flex;
+    font-size: 16px;
+    margin: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+.input {
+    font-size: 18px;
+    padding: 3px 7px;
+    border: 1px solid #3e0080;
+    border-radius: 8px;
+}
+
+.error {
+    font-size: 18px;
+    color: red;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    background-color: #300064;
+    padding: 8px 14px;
+    border-radius: 8px;
+    &:hover {
+        background-color: #4400aa;
+        color: #fff;
+        text-shadow: #fff 0 0 4px;
+        box-shadow: #007599 0 0 15px;
+    }
+}

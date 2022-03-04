@@ -1,0 +1,15 @@
+.avatarContainer {
+    margin-right: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    background-color: #fff;
+}
+
+.avatarContainer:last-child {
+    margin-right: 0;
+}

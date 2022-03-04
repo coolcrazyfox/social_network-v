@@ -1,0 +1,80 @@
+.pagination {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 16px;
+    color: #b398f8;
+}
+
+.currentNumber {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.selectPage {
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    background-color: #3a0080 !important;
+}
+
+.page {
+    display: inline-block;
+    text-align: center;
+    min-width: 45px;
+    padding: 5px 0;
+    font-size: 18px;
+    background-color: #999;
+    cursor: pointer;
+    &:first-child {
+        border-radius: 10px 0 0 10px;
+    }
+    &:last-child {
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+.button {
+    color: #fff;
+    font-size: 18px;
+    background-color: #3c0064;
+    padding: 6px 12px;
+    border-radius: 8px;
+    margin: 7px;
+    white-space: nowrap;
+    &:hover {
+        background-color: #363146;
+        color: #fff;
+        text-shadow: #fff 0 0 4px;
+        box-shadow: #2f8f94 0 0 15px;
+    }
+    &:disabled {
+        background-color: #6e5454;
+        text-shadow: none;
+        box-shadow: none;
+        cursor: auto;
+    }
+    &Container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (pointer: fine) {
+    .button {
+        margin: 0 10px;
+    }
+
+    .currentNumber {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}

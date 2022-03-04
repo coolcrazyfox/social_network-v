@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(14, 5, 21, 0.44);
+    min-height: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    max-width: available;
+}
+
+.logo {
+    width: 55px;
+    margin: 0 10px;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    color: #fff;
+    margin-right: 12px;
+    font-size: 20px;
+    word-break: break-all;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+a{
+    color: #c4aecc;
+}
+a:hover {
+    color: #544564;
+}
+
+.button {
+    color: #fff;
+    font-size: 18px;
+    background-color: #36323d;
+    padding: 10px 15px;
+    border-radius: 8px;
+    &:hover {
+        background-color: #dcd5e7;
+        color: #1a1111;
+        text-shadow: #653636 0 0 4px;
+        box-shadow: #581694 0 0 15px;
+    }
+}
+
+@media (pointer: fine) {
+    .container {
+        width: 1000px;
+        max-width: 1000px;
+    }
+
+    .header {
+        margin-bottom: 15px;
+    }
+
+    .avatar img {
+        margin-right: 30px;
+    }
+}

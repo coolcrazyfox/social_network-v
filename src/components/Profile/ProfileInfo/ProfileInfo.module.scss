@@ -1,0 +1,192 @@
+.backgroundImage {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    max-height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+
+.button {
+    color: #fff;
+    font-size: 18px;
+    background-color: #250064;
+    padding: 6px 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    background-color: #4c00aa;
+    color: #fff;
+    text-shadow: #fff 0 0 4px;
+    box-shadow: #302d54 0 0 15px;
+}
+
+.userInfoSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.editModeContainer {
+    width: 100%;
+}
+
+.editFormContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editModeContacts {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.editModeInput {
+    display: inline-block;
+    min-width: 90%;
+    min-height: 33px;
+    width: 123%;
+    margin-bottom: 5px;
+    font-size: 18px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    line-height: 1.3;
+    resize: vertical;
+}
+
+input::placeholder {
+    color: #41c4a3;
+}
+
+textarea::placeholder {
+    color: #b41212;
+}
+
+.userDescription {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userName {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.userInfoText {
+    font-size: 18px;
+    line-height: 1.3;
+    white-space: nowrap;
+    word-break: break-word;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: baseline;
+}
+
+.contactsSection {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.contactText {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.userAvatarSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+}
+
+.userAvatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.inputFileButtonContainer {
+    margin-top: 15px;
+}
+
+.inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    & + label {
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-size: 18px;
+        white-space: nowrap;
+        background-color: #2d0064;
+        padding: 8px 12px;
+        border-radius: 8px;
+    }
+    &:focus + label,
+    & + label:hover {
+        background-color: #4c00aa;
+        color: #fff;
+        text-shadow: #fff 0 0 4px;
+        box-shadow: #009970 0 0 15px;
+    }
+}
+
+.statusContainer {
+    text-align: center;
+    margin: 15px 0;
+}
+
+@media (pointer: fine) {
+    .backgroundImage {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .userInfoSection {
+        flex-direction: row;
+    }
+
+    .userDescription {
+        max-width: none;
+        display: block;
+        flex-direction: row;
+        align-items: start;
+        font-size: 17px;
+        color: #5cd8ef;
+    }
+
+    .editModeContainer {
+        width: 68%;
+    }
+
+    .userAvatarSection {
+        margin-right: 20px;
+    }
+
+    .statusContainer {
+        text-align: start;
+        margin-bottom: 15px;
+    }
+
+    .contactsSection {
+        width: auto;
+        text-align: start;
+    }
+}
