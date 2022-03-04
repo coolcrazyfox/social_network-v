@@ -7,7 +7,7 @@ export type AvatarItemPropsType = {
 }
 
 const AvatarItem: React.FC<AvatarItemPropsType> = ({link}) => {
-    let l=1
+
     return (
         <div>
             <img className={s.avatar} src={link} alt="User avatar"/>
