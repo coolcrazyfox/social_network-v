@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Page404/Page404.module.scss"],"names":[],"mappings":"AAAA,0BACI,YAAA,CACA,eAAA,CAGJ,qBACI,cAAA","file":"10.074ff47b.chunk.css","sourcesContent":[".container {\n    padding: 15px;\n    margin-top: 15px;\n}\n\n.text {\n    font-size: 18px;\n}"]}

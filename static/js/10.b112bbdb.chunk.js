@@ -1,0 +1,2 @@
+(this.webpackJsonpsamurai=this.webpackJsonpsamurai||[]).push([[10],{267:function(t,e,n){t.exports={container:"Page404_container__2woBy",text:"Page404_text__3nui7"}},321:function(t,e,n){"use strict";n.r(e);n(0);var a=n(267),i=n.n(a),r=n(3);e.default=function(){return Object(r.jsx)("div",{className:i.a.container,children:Object(r.jsx)("div",{className:i.a.text,children:"Error 404 - page not found"})})}}}]);
+//# sourceMappingURL=10.b112bbdb.chunk.js.map
